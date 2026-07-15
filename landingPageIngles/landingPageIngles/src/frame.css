@@ -1,0 +1,23 @@
+:root {
+    --frame-bg-color: rgb(240, 240, 240);
+
+    --frame-stroke-color: rgb(179, 179, 179);
+    --frame-stroke-size: 2px;
+}
+
+.frame {
+    margin-bottom: 50px;
+}
+
+.frame-padding {
+    padding: 10px;
+}
+
+.frame-default-color {
+    background-color: var(--frame-bg-color);
+}
+
+.frame-border-tb {
+    border-top: var(--frame-stroke-size) solid var(--frame-stroke-color);
+    border-bottom: var(--frame-stroke-size) solid var(--frame-stroke-color);
+}
